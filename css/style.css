@@ -135,8 +135,7 @@ nav {
 .main-section:after {
     content: " ";
     display: block;
-    background-image: url("../images/App_Icon.png");
-    background-repeat: no-repeat;
+    background: url("../images/App_Icon.png") no-repeat;
     position: absolute;
     width: 110px;
     height: 111px;
@@ -195,8 +194,7 @@ nav {
 .counter-app .list-popup:before {
     content: "";
     display: block;
-    background-image: url("../images/mobile_counter_app.png");
-    background-repeat: no-repeat;
+    background: url("../images/mobile_counter_app.png") no-repeat;
     position: absolute;
     top: -120px;
     left: -15px;
@@ -240,7 +238,11 @@ nav {
     background: url("../images/item_5.png") center no-repeat;
 }
 
-.item1, .item2, .item3, .item4, .item5 {
+.item1,
+.item2,
+.item3,
+.item4,
+.item5 {
     background-position: center;
 }
 
@@ -592,11 +594,8 @@ footer {
     width: 100%;
 }
 
-
 /*========================================================*/
-
 /*////////////////////FOOTER SECTION END//////////////////*/
-
 /*========================================================*/
 
 @media (min-width: 1200px) {
